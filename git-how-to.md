@@ -78,7 +78,9 @@ git fetch origin
 git checkout master
 git log origin/master
 git merge origin/master
+```
 
-OR
-git pull origin master
+With the following command the local branch BRANCHNAME will be updated from origin (corresponding remote branch):
+```bash
+git pull origin BRANCHNAME
 ```
