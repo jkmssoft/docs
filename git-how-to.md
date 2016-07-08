@@ -84,3 +84,12 @@ With the following command the local branch BRANCHNAME will be updated from orig
 ```bash
 git pull origin BRANCHNAME
 ```
+
+### Forked repo
+
+Fork a repository on github. Then you need to add the "original" repository url to fetch updates.
+```bash
+git clone git@github.com:jkmssoft/yii2-user.git
+git remote add upstream git@github.com:dektrium/yii2-user.git
+git fetch upstream
+```
