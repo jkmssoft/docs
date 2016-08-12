@@ -52,8 +52,13 @@ Merge changes from newFeature into develop branch:
 ```bash
 git checkout develop
 git merge --no-ff newFeature
-If you want delete the newFeature branch: git branch -d newFeature
 git push origin develop
+```
+
+Delete branch
+```bash
+git branch -d BRANCHTODELETE
+git push origin --delete BRANCHTODELETE
 ```
 
 ### Create a release
