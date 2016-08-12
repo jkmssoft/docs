@@ -55,7 +55,7 @@ git merge --no-ff newFeature
 git push origin develop
 ```
 
-Delete branch
+Delete branch:
 ```bash
 git branch -d BRANCHTODELETE
 git push origin --delete BRANCHTODELETE
