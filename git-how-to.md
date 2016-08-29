@@ -98,3 +98,19 @@ git clone git@github.com:jkmssoft/yii2-user.git
 git remote add upstream git@github.com:dektrium/yii2-user.git
 git fetch upstream
 ```
+
+### Merge commits (Rebase)
+
+```bash
+# The last two commits:
+git reset --soft "HEAD^"
+git commit --amend
+# or
+git rebase -i HEAD~1
+# or get base of current branch and merge (all) commits
+git merge-base MyBranch master
+7dbc...
+git rebase -i 7dbc...
+# replace pick with s (squash), except the first one!
+# attention: then push is only possible with -f! 
+```
