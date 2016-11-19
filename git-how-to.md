@@ -99,6 +99,14 @@ git remote add upstream git@github.com:dektrium/yii2-user.git
 git fetch upstream
 ```
 
+#### Update forked repo
+
+```bash
+git fetch upstream
+git checkout master # if not already in branch master
+git rebase upstream/master
+```
+
 ### Merge commits (Rebase)
 
 ```bash
