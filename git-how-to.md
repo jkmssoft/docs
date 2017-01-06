@@ -107,6 +107,15 @@ git checkout master # if not already in branch master
 git rebase upstream/master
 ```
 
+### Update own branch
+
+First: Update your forket repo
+
+```bash
+git checkout <THEBRANCHTOUPDATE>
+git rebase master
+```
+
 ### Merge commits (Rebase)
 
 ```bash
