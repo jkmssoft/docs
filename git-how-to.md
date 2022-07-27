@@ -99,6 +99,14 @@ git remote add upstream git@github.com:dektrium/yii2-user.git
 git fetch upstream
 ```
 
+Get/set remote url
+```bash
+git config --get remote.origin.url
+git config --get remote.upstream.url
+git remote -v
+git remote set-url origin https://github.com/user/repo2.git
+```
+
 #### Update forked repo
 
 ```bash
